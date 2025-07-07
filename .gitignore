@@ -1,0 +1,55 @@
+# Byte-compiled / optimized / DLL files
+_pycache_/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+
+# Logs
+*.log
+
+# Local environment variables
+.env
+.env.*
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Pylint and mypy
+.mypy_cache/
+.dmypy.json
+.pyre/

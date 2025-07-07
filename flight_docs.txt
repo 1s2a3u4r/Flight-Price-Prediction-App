@@ -1,0 +1,21 @@
+## Flight Price Prediction Project
+
+This project predicts flight ticket prices based on journey details, airline, source, destination, and stops.  
+It uses a RandomForestRegressor trained on historical flight data.
+
+We use Python libraries: pandas, numpy, matplotlib, scikit-learn, and Streamlit.
+
+The user interface is built with Streamlit. Users can select departure date, arrival time, source, destination, and airline.
+
+The model predicts the price in Indian rupees.
+
+Future work includes adding LLM and RAG to answer questions, and using deep learning models.
+
+Dataset had around 10,600 rows in training and 2,600 in testing.
+Features include: Total_Stops, Journey_day, Journey_month, Dep_hour, Dep_min, Arrival_hour, Arrival_min, Duration_hours, Duration_mins, Airline, Source, Destination.
+
+Common questions:
+- How is the price predicted?
+- Which algorithm is used?
+- What data was used to train?
+- How can the model be improved?
